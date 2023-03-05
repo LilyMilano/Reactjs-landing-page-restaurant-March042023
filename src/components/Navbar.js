@@ -47,9 +47,15 @@ const Navbar = () => {
 				<img src={Logo} alt="" />
 			</div>
 			<div className="navbar-links-container">
-				<a href="">Home</a>;<a href="">About</a>
+				{/* eslint-disable-next-line */}
+				<a href="">Home</a>
+				{/* eslint-disable-next-line */}
+				<a href="">About</a>
+				{/* eslint-disable-next-line */}
 				<a href="">Testimonials</a>
+				{/* eslint-disable-next-line */}
 				<a href="">Contact</a>
+				{/* eslint-disable-next-line */}
 				<a href="">
 					<BsCart2 className="navbar-cart-icon" />
 				</a>
